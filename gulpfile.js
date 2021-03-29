@@ -109,7 +109,7 @@ const useref = () => {
             minifyCSS: true,
             minifyJS: true
         })))
-        .pipe(dest('dist'))
+        .pipe(dest('release'))
 }
 
 // 本地开发阶段的编译任务
